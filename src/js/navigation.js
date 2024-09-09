@@ -7,7 +7,7 @@ import { monsters, locations, imagesField } from './data.js';
 
 export function goTown() {
     goToLocation("town square");
-    body.style.background = 'url("src/assets/images/townsquare.jpeg")';
+    body.style.background = 'url("src/assets/images/townsquare_out.jpeg")';
     styleImage();
     uiElements.monsterStats.style.display = "none";
     text.innerText = "You are in the town square.";
