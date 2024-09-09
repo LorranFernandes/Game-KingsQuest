@@ -1,5 +1,5 @@
 
-import { uiElements, gameState, styleImage, body, goToLocation,randomImage,
+import { uiElements, gameState, styleImage, body, text, goToLocation,randomImage,
   buyDandelionBow,buyFlameBow,buyObsidianDagger,buyPrismaDagger,buyLigthBow,
   buyRaisorSword,buyFakeHeroSword,buySilverSword} from './game.js';
 import { monsters, locations, imagesField } from './data.js';
@@ -9,7 +9,9 @@ export function goTown() {
     goToLocation("town square");
     body.style.background = 'url("src/assets/images/townsquare.jpeg")';
     styleImage();
-    uiElements.monsterStats.style.display = "none"
+    uiElements.monsterStats.style.display = "none";
+    text.innerText = "You are in the town square.";
+
   }
 
   export function goCity() {
