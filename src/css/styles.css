@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    margin-top: -15px;
+    padding: 0;
+    background-color: black;
+}
+
+body {
+    background-image: url('../assets/images/cidadeAmpliada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+abbr{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#text {
+    background-color: #0a0a23;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+#game {
+    border-radius: 0 0 10px 10px;
+    max-width: 600px;
+    max-height: 400px;
+    background-color: #fdf8f8;
+    color: #ffffff;
+    margin: 30px auto 0px;
+    padding: 10px;
+}
+
+#controls,
+#stats {
+    padding: 5px;
+    color: #0a0a23;
+}
+
+#stats {
+    border: 1px dashed #0a0a23;
+    border-radius: 5px;
+    display: flex;
+}
+
+#stats .stat:nth-child(2) {
+    margin-left: auto;
+}
+
+.menu{
+    margin-left: 15px;
+    color: rgb(58, 17, 96);
+}
+
+
+#controls {
+    background-color: #fdf8f8;
+    padding: 10px;
+    text-align: center;
+}
+
+#monsterStats{
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+#monsterStats {
+    color: #ffffff;
+    background-color: #c70d0d;
+}
+
+.stat {
+    padding-right: 10px;
+}
+
+button {
+    cursor: pointer;
+    color: #1b1b4a;
+    background-color: #feac32;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 2px outset #feac32;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.aura {
+    text-shadow: 2px 2px 5px violet;
+}

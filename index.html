@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <title>RPG - Dragon Repeller</title>
+  </head>
+  <body >
+    <div id="game">
+      <div id="stats">
+        <span class="stat menu"><abbr id="descriptionXpText" title="XP: 0">Level: </abbr><strong><span id="levelText">0</span></strong></span>
+        <span class="stat menu">Health: <strong><span id="healthText">25</span>/<span id="maxHealthText">25</span></strong></span>
+        <span class="stat menu"><abbr title="Total hits you can take without taking damage.">Defense: </abbr><strong><span id="defenseText">0</span></strong></span>  
+        <span class="stat menu"><abbr id="descriptionPowerText" title="Power of ...">Power: </abbr><strong><span id="powerText">100</span></strong></span>
+        <span class="stat menu">Gold: <strong><span id="goldText">50</span></strong></span>
+      </div>
+      <div id="controls">
+        <button id="button1">Go to guilda</button>
+        <button id="button2">Go to field</button>
+        <button id="button3">Go to dangeon</button>
+        <button id="button4">Fight dragon</button>
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="text">
+        Welcome new traveler, you are the hero called by the gods. Our king teleported you to our world to defeat the dragon, but to do so you need to increase your level, you can do this by killing monsters and taking the spoils to the guild in exchange for gold. Now go hero.
+      </div>
+    </div>
+    <script type="module" src="src/js/game.js"></script>
+  </body>
+</html>
