@@ -1,6 +1,6 @@
 
 export const weapons = [
-    { name: 'rusty sword', power: 500 , price: 10},
+    { name: 'rusty sword', power: 5 , price: 10},
     { name: 'goblin sword', power: 13, price: 75},
     { name: 'copper sword', power: 7 , price: 35},
     { name: 'raisor sword', power: 10 , price: 60},
