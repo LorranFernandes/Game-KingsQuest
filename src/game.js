@@ -2,7 +2,7 @@ import * as Data from './data/index.js';
 import { goBackWorld, goField, goToScene, goWin } from './game/locations/locations.js';
 import { fightDragon } from './game/monsters/bossMonster.js';
 import { monsterItems } from './game/monsters/monsterSystem.js';
-import { addXp, inventory, resetWeapon, setDefense, setGold, setHealth, setLevel, setMaxHealth, updatePower } from './game/player/playerStats.js';
+import { addXp, bag, inventory, resetWeapon, setDefense, setGold, setHealth, setLevel, setMaxHealth, updatePower } from './game/player/playerStats.js';
 import { currentPower, mostPowerfulNameWeapon} from './game/Stores/weaponSystem.js';
 
 export const body = document.body;
@@ -137,6 +137,7 @@ export function backWorld(){
 export function clearInventory(){
     inventory.splice(0, inventory.length);
     inventory.push(Data.weapons[0]);
+    bag.splice(0, bag.length);
 }
 
 export function restart() {
