@@ -1,7 +1,7 @@
 export const placeLocations = [
   {
     name: "town square",
-    image: "src/assets/images/townsquare_out.jpeg",
+    image: "src/assets/images/townSquare_out.jpeg",
     styleImage: true,
     showStats: false,
     text: "You are in the town square."
